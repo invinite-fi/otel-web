@@ -60,23 +60,23 @@
     }
   },
   "dependencies": {
-    "@opentelemetry/exporter-logs-otlp-http": "^0.222.0",
-    "@opentelemetry/exporter-trace-otlp-http": "^0.222.0",
-    "@opentelemetry/resources": "^2.11.0",
-    "@opentelemetry/sdk-logs": "^0.222.0",
-    "@opentelemetry/sdk-trace-base": "^2.11.0",
-    "@opentelemetry/sdk-trace-web": "^2.11.0",
+    "@opentelemetry/exporter-logs-otlp-http": "^0.223.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.223.0",
+    "@opentelemetry/resources": "^2.12.0",
+    "@opentelemetry/sdk-logs": "^0.223.0",
+    "@opentelemetry/sdk-trace-base": "^2.12.0",
+    "@opentelemetry/sdk-trace-web": "^2.12.0",
     "@opentelemetry/semantic-conventions": "^1.43.0"
   },
   "devDependencies": {
     "@invinite/eslint-config": "^2.0.1",
     "@opentelemetry/api": "^1.9.1",
-    "@opentelemetry/api-logs": "^0.222.0",
-    "@vitest/browser": "^5.0.3",
+    "@opentelemetry/api-logs": "^0.223.0",
+    "@vitest/browser": "^5.0.4",
     "@vitest/browser-playwright": "^4.1.11",
     "eslint": "^10.12.0",
-    "playwright": "^1.63.0",
-    "prettier": "^3.9.9",
+    "playwright": "^1.64.0",
+    "prettier": "^3.9.10",
     "typescript": "^6.0.3",
     "vitest": "^4.1.11"
   },
