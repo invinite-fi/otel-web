@@ -51,7 +51,7 @@
     "prepublishOnly": "yarn lint && yarn format && yarn build && npm pack --dry-run"
   },
   "peerDependencies": {
-    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/api": "^1.10.0",
     "@opentelemetry/api-logs": ">=0.212.0"
   },
   "peerDependenciesMeta": {
@@ -60,8 +60,8 @@
     }
   },
   "dependencies": {
-    "@opentelemetry/exporter-logs-otlp-http": "^0.223.0",
-    "@opentelemetry/exporter-trace-otlp-http": "^0.223.0",
+    "@opentelemetry/exporter-logs-otlp-http": "^0.300.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.300.0",
     "@opentelemetry/resources": "^2.12.0",
     "@opentelemetry/sdk-logs": "^0.223.0",
     "@opentelemetry/sdk-trace-base": "^2.12.0",
@@ -70,7 +70,7 @@
   },
   "devDependencies": {
     "@invinite/eslint-config": "^2.0.1",
-    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/api": "^1.10.0",
     "@opentelemetry/api-logs": "^0.223.0",
     "@vitest/browser": "^5.0.5",
     "@vitest/browser-playwright": "^4.1.11",
