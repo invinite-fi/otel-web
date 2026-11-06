@@ -66,15 +66,15 @@
     "@opentelemetry/sdk-logs": "^3.0.0",
     "@opentelemetry/sdk-trace-base": "^2.12.0",
     "@opentelemetry/sdk-trace-web": "^2.12.0",
-    "@opentelemetry/semantic-conventions": "^1.43.0"
+    "@opentelemetry/semantic-conventions": "^1.44.0"
   },
   "devDependencies": {
     "@invinite/eslint-config": "^2.0.1",
     "@opentelemetry/api": "^1.10.0",
     "@opentelemetry/api-logs": "^0.223.0",
-    "@vitest/browser": "^5.0.5",
+    "@vitest/browser": "^5.1.0",
     "@vitest/browser-playwright": "^4.1.11",
-    "eslint": "^10.13.0",
+    "eslint": "^10.14.0",
     "playwright": "^1.64.1",
     "prettier": "^3.9.10",
     "typescript": "^6.0.3",
