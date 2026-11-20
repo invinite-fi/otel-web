@@ -202,14 +202,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/config-array@npm:^0.23.5":
-  version: 0.23.5
-  resolution: "@eslint/config-array@npm:0.23.5"
+"@eslint/config-array@npm:^0.23.6":
+  version: 0.23.6
+  resolution: "@eslint/config-array@npm:0.23.6"
   dependencies:
     "@eslint/object-schema": "npm:^3.0.5"
     debug: "npm:^4.3.1"
-    minimatch: "npm:^10.2.4"
-  checksum: 10c0/b24833c4c76e78ee075d306cd3f095db46b2db0f90cc13a6ee6e4275f9889731c05bf5403ab5fefb79c756e07ac9184ed0e04570341382f9eccbccc80e6d1a0c
+    minimatch: "npm:^11.0.5"
+  checksum: 10c0/adf798a55b4f58e1db954347633ca2c07c51d413590f274f77d1d94d3413de3d321e3558e313f616a822cb76d90e9c378ec6dd2f49b3e51a2070e61f4405f2ae
   languageName: node
   linkType: hard
 
@@ -337,8 +337,8 @@ __metadata:
     "@invinite/eslint-config": "npm:^2.0.1"
     "@opentelemetry/api": "npm:^1.10.0"
     "@opentelemetry/api-logs": "npm:^0.223.0"
-    "@opentelemetry/exporter-logs-otlp-http": "npm:^0.301.1"
-    "@opentelemetry/exporter-trace-otlp-http": "npm:^0.301.1"
+    "@opentelemetry/exporter-logs-otlp-http": "npm:^0.301.2"
+    "@opentelemetry/exporter-trace-otlp-http": "npm:^0.301.2"
     "@opentelemetry/resources": "npm:^3.1.1"
     "@opentelemetry/sdk-logs": "npm:^3.1.1"
     "@opentelemetry/sdk-trace-base": "npm:^2.12.0"
@@ -346,9 +346,9 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:^1.45.0"
     "@vitest/browser": "npm:^5.1.0"
     "@vitest/browser-playwright": "npm:^4.1.11"
-    eslint: "npm:^10.14.0"
-    playwright: "npm:^1.65.0"
-    prettier: "npm:^3.9.10"
+    eslint: "npm:^10.15.0"
+    playwright: "npm:^1.65.1"
+    prettier: "npm:^3.10.1"
     typescript: "npm:^6.0.3"
     vitest: "npm:^4.1.11"
   peerDependencies:
@@ -366,6 +366,13 @@ __metadata:
   dependencies:
     minipass: "npm:^7.0.4"
   checksum: 10c0/c25b6dc1598790d5b55c0947a9b7d111cfa92594db5296c3b907e2f533c033666f692a3939eadac17b1c7c40d362d0b0635dc874cbfe3e70db7c2b07cc97a5d2
+  languageName: node
+  linkType: hard
+
+"@isaacs/nonrecursive-glob-match@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@isaacs/nonrecursive-glob-match@npm:1.1.0"
+  checksum: 10c0/89f8535f3d8147649360de992f58fba2b0e97b687e18cdc16c5b34a6c52afff4f474d05c5a0b6411708614f368cf19c41b037d3a1c6c6821e02aee967d888e98
   languageName: node
   linkType: hard
 
@@ -497,47 +504,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/exporter-logs-otlp-http@npm:^0.301.1":
-  version: 0.301.1
-  resolution: "@opentelemetry/exporter-logs-otlp-http@npm:0.301.1"
+"@opentelemetry/exporter-logs-otlp-http@npm:^0.301.2":
+  version: 0.301.2
+  resolution: "@opentelemetry/exporter-logs-otlp-http@npm:0.301.2"
   dependencies:
-    "@opentelemetry/otlp-exporter-base": "npm:0.301.1"
-    "@opentelemetry/otlp-transformer": "npm:0.301.1"
+    "@opentelemetry/otlp-exporter-base": "npm:0.301.2"
+    "@opentelemetry/otlp-transformer": "npm:0.301.2"
     "@opentelemetry/sdk-logs": "npm:3.1.1"
   peerDependencies:
     "@opentelemetry/api": ^1.10.0
-  checksum: 10c0/dade08632807d9c60192f51a31b2f5c69748504f2a7f32716efdbc401b1fbebe73f30b5fc4b4e49e3f3bc9d1bc239a96303ed2020ba16103658e50021e87d2e2
+  checksum: 10c0/3a3f99ec78a99d6a5e17443673e85fc3b301ea9947f0051f51bdc04fb3ec2816449a330658ca4173a420d3b6ecb9219c356439566f3324b66e89a34c041dd9d0
   languageName: node
   linkType: hard
 
-"@opentelemetry/exporter-trace-otlp-http@npm:^0.301.1":
-  version: 0.301.1
-  resolution: "@opentelemetry/exporter-trace-otlp-http@npm:0.301.1"
+"@opentelemetry/exporter-trace-otlp-http@npm:^0.301.2":
+  version: 0.301.2
+  resolution: "@opentelemetry/exporter-trace-otlp-http@npm:0.301.2"
   dependencies:
-    "@opentelemetry/otlp-exporter-base": "npm:0.301.1"
-    "@opentelemetry/otlp-transformer": "npm:0.301.1"
+    "@opentelemetry/otlp-exporter-base": "npm:0.301.2"
+    "@opentelemetry/otlp-transformer": "npm:0.301.2"
     "@opentelemetry/sdk-trace": "npm:3.1.1"
   peerDependencies:
     "@opentelemetry/api": ^1.10.0
-  checksum: 10c0/f5f77a9cf7e5b7fe80bb799128ffad6229345451fb65984527854bfc18482f43c541170702db54debf9fb50a752ea4b4cb76845df5b8fd0c023db1d5168b5f7a
+  checksum: 10c0/0da9c3623778b4b0e6aa1051df846a616201972f00ee43a4a5b43fe8a8a21703044ada7d157fd103b22615ef1da7079cfea6c6086ccbb06f8f2e48242bc208b4
   languageName: node
   linkType: hard
 
-"@opentelemetry/otlp-exporter-base@npm:0.301.1":
-  version: 0.301.1
-  resolution: "@opentelemetry/otlp-exporter-base@npm:0.301.1"
+"@opentelemetry/otlp-exporter-base@npm:0.301.2":
+  version: 0.301.2
+  resolution: "@opentelemetry/otlp-exporter-base@npm:0.301.2"
   dependencies:
     "@opentelemetry/core": "npm:3.1.1"
-    "@opentelemetry/otlp-transformer": "npm:0.301.1"
+    "@opentelemetry/otlp-transformer": "npm:0.301.2"
   peerDependencies:
     "@opentelemetry/api": ^1.10.0
-  checksum: 10c0/1b270ca6f27d9aeef0c0612c66ff13def353480770a75dd940c7ba37dda91710fc414a3ca3eb8012206193d0cb7372dda1a2ad6dec646a92217d3f1d2bb90602
+  checksum: 10c0/e6a91b0dbb7462a887ca2f16a2a3886102846e27f9438ea1861a4a381de87635503df84a045f2ce9f22cd9064a874b77cc2919a12334f8049852636150781040
   languageName: node
   linkType: hard
 
-"@opentelemetry/otlp-transformer@npm:0.301.1":
-  version: 0.301.1
-  resolution: "@opentelemetry/otlp-transformer@npm:0.301.1"
+"@opentelemetry/otlp-transformer@npm:0.301.2":
+  version: 0.301.2
+  resolution: "@opentelemetry/otlp-transformer@npm:0.301.2"
   dependencies:
     "@opentelemetry/core": "npm:3.1.1"
     "@opentelemetry/resources": "npm:3.1.1"
@@ -546,7 +553,7 @@ __metadata:
     "@opentelemetry/sdk-trace": "npm:3.1.1"
   peerDependencies:
     "@opentelemetry/api": ">=1.10.0 <1.11.0"
-  checksum: 10c0/106c1ed509be6ced286f261d42406baaa458395867fd1afcf93e1e447b15ff04eb5229b6bdf3ed505c4c0a9394fcd813ea0ca1a5533ddba7b647fc23633a9e01
+  checksum: 10c0/8955ab5f445721e95a07bc0be24900d584925d0ab53225d3151caba2c523236c6ff6ed67894dbd0ca64baed40e6a4c7db8e39b32c16efe04921850ba52c207fa
   languageName: node
   linkType: hard
 
@@ -1345,21 +1352,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"brace-expansion@npm:^5.0.12":
+  version: 5.0.13
+  resolution: "brace-expansion@npm:5.0.13"
+  dependencies:
+    balanced-match: "npm:^4.0.2"
+  checksum: 10c0/80420a1d567db7fa3214e2d49cd28ff8aa89dbb9a889bf3e449372dd72cdcec5267b451a5ff6fcaec1dd8819a88fb3d682e01c63812a8220881e305852b07f60
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^5.0.2":
   version: 5.0.3
   resolution: "brace-expansion@npm:5.0.3"
   dependencies:
     balanced-match: "npm:^4.0.2"
   checksum: 10c0/e474d300e581ec56851b3863ff1cf18573170c6d06deb199ccbd03b2119c36975f6ce2abc7b770f5bebddc1ab022661a9fea9b4d56f33315d7bef54d8793869e
-  languageName: node
-  linkType: hard
-
-"brace-expansion@npm:^5.0.8":
-  version: 5.0.9
-  resolution: "brace-expansion@npm:5.0.9"
-  dependencies:
-    balanced-match: "npm:^4.0.2"
-  checksum: 10c0/3dea38884a1c3c8b1c9c44a7402a0c76fca460f70cffb3127242b0b4cbf4472019e022ade021eec44838ff19f1dac2625dfd11dd459d7e1e055b0698a8d52fec
   languageName: node
   linkType: hard
 
@@ -1667,13 +1674,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^10.14.0":
-  version: 10.14.0
-  resolution: "eslint@npm:10.14.0"
+"eslint@npm:^10.15.0":
+  version: 10.15.0
+  resolution: "eslint@npm:10.15.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.8.0"
     "@eslint-community/regexpp": "npm:^4.12.2"
-    "@eslint/config-array": "npm:^0.23.5"
+    "@eslint/config-array": "npm:^0.23.6"
     "@eslint/config-helpers": "npm:^0.7.0"
     "@eslint/core": "npm:^1.2.1"
     "@eslint/plugin-kit": "npm:^0.7.3"
@@ -1698,7 +1705,7 @@ __metadata:
     imurmurhash: "npm:^0.1.4"
     is-glob: "npm:^4.0.0"
     json-stable-stringify-without-jsonify: "npm:^1.0.1"
-    minimatch: "npm:^10.2.6"
+    minimatch: "npm:^11.0.5"
     natural-compare: "npm:^1.4.0"
     optionator: "npm:^0.9.3"
   peerDependencies:
@@ -1708,7 +1715,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/738cdd0a1aa37b8bddefb5c89206f9f202540e8fce57f7ef82649b5bdf0acd67f7b9f2724f538b11149bd9bfdd14605125568cf73b319baec007866677af72dd
+  checksum: 10c0/81775d3bc273007b3b6f08d114f57b0c83527e8ebbb89674726bbd29b66883a6fef016a0271e05014a067d1c1079514c5523df96b86740fdfe65ef56abacb030
   languageName: node
   linkType: hard
 
@@ -2233,7 +2240,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.2.2, minimatch@npm:^10.2.4":
+"minimatch@npm:^10.2.2":
   version: 10.2.4
   resolution: "minimatch@npm:10.2.4"
   dependencies:
@@ -2242,12 +2249,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.2.6":
-  version: 10.2.6
-  resolution: "minimatch@npm:10.2.6"
+"minimatch@npm:^11.0.5":
+  version: 11.0.9
+  resolution: "minimatch@npm:11.0.9"
   dependencies:
-    brace-expansion: "npm:^5.0.8"
-  checksum: 10c0/4559a836243b98bd4d17ea9f7edae698717c76399eea7be374f3737f33164e4907f19e9726891ddeb122f750a5a7fa80d2ac43e851d6e5984dc4ff42ec127d3a
+    "@isaacs/nonrecursive-glob-match": "npm:^1.1.0"
+    brace-expansion: "npm:^5.0.12"
+  checksum: 10c0/17c8b5caebaa8c1ecc1c6d58028d192f0e94ebe03976bb9f348920c107cde3185614f74543fe40dfc79ecf0bd74158b816633fc9a8f66da32c0d5327ecbb91e9
   languageName: node
   linkType: hard
 
@@ -2493,23 +2501,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.65.0":
-  version: 1.65.0
-  resolution: "playwright-core@npm:1.65.0"
+"playwright-core@npm:1.65.1":
+  version: 1.65.1
+  resolution: "playwright-core@npm:1.65.1"
   bin:
     playwright-core: cli.js
-  checksum: 10c0/ed905c6fc2457a725c3fdb3ad4500f43c7a1bb2c6e4e8c708e1e314930c7dce446a5756ad073425bf3c6e3ca975e5a35fb0221118e2d51ef7b4b6c6d13d0644c
+  checksum: 10c0/4406d4f8eff668a93aaada8382d25fcce8da5f679e9f31311888178d631ed0270eb40c0288129e41e15709c957a31932cac9753fdb332547a19bc3541d317e44
   languageName: node
   linkType: hard
 
-"playwright@npm:^1.65.0":
-  version: 1.65.0
-  resolution: "playwright@npm:1.65.0"
+"playwright@npm:^1.65.1":
+  version: 1.65.1
+  resolution: "playwright@npm:1.65.1"
   dependencies:
-    playwright-core: "npm:1.65.0"
+    playwright-core: "npm:1.65.1"
   bin:
     playwright: cli.js
-  checksum: 10c0/a7d71f3ca5bcad0531b5f3c39ae1a9be0da8e74be6fee8510d99b9f5fc07fd5b3d889aa4ca487c70ca29aba8625f74e3c2c7473b4c8a784dc14fefff80474ac3
+  checksum: 10c0/30ce029c9fb2a6e88cf81b150b978fd60edb59b8af5a6460f5576f0fe6e2bb739454109f0ce4904eac63cb2cf10390518d7d71d335fd695b5897734a5af7250d
   languageName: node
   linkType: hard
 
@@ -2538,12 +2546,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.9.10":
-  version: 3.9.10
-  resolution: "prettier@npm:3.9.10"
+"prettier@npm:^3.10.1":
+  version: 3.10.1
+  resolution: "prettier@npm:3.10.1"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/0b3531593aa6fb36ac6baf629cb058bda472c59a6938774f931fe55283a07c62e6f56e621b043a82d8a3e21fc284c08c34f9e539fc70072635f79b7bae1a1067
+  checksum: 10c0/e8c03ea575a30e15afa75a3700e94609050502980d7c906374aea4cf623eef4dce0816100126207e675cc1ed54b7dfce60f02dbee8d61ec27dc69ce5df6c3723
   languageName: node
   linkType: hard
 
